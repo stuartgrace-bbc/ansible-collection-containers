@@ -28,6 +28,10 @@ download_artifact_http_proxy: "{{ http_proxy | default('') }}"
 download_artifact_https_proxy: "{{ https_proxy | default('') }}"
 download_artifact_no_proxy: "{{ no_proxy | default('') }}"
 
+# Can set a mirror url for fetching binaries and tarballs
+# download_artifact_mirror
+# download_artifact_mirror_version
+
 # NOTE(fitbeard): If this is false, debug information will be displayed but may
 #                 contain some private data, so it is recommended to set it to
 #                 true a production environment.
