@@ -53,6 +53,7 @@ class ActionModule(ActionBase):
               res['url'] = url
               res['checksum'] = c
               res['dest'] = dest
+              res['version'] = v
 
               downloads.append(res)
 
